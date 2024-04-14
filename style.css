@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Oswald";
+}
+
+body {
+    background-color: #151515;
+    color: #ffffff;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #1b1b1b;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.links a {
+    font-size: 19px;
+
+    color: #ffffff;
+}
+
+.links a:hover {
+    color: #dcb658;
+}
+
+.links ul {
+    gap: 40px;
+    display: flex;
+
+}
