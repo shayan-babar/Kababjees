@@ -12,10 +12,13 @@ body {
     color: #ffffff;
 }
 
+/*header*/
+
 header {
     height: 65px;
     width: 100%;
     background-color: #1b1b1b;
+    backdrop-filter: blur(0px);
     position: fixed;
     display: flex;
     justify-content: center;
@@ -29,7 +32,6 @@ header {
 
 .links a {
     font-size: 19px;
-
     color: #ffffff;
 }
 
@@ -40,5 +42,40 @@ header {
 .links ul {
     gap: 40px;
     display: flex;
-
 }
+
+/*header end */
+
+/*section one*/
+
+.section-one img {
+    height: 650px;
+    width: 100%;
+}
+
+/*end */
+
+/*section two*/
+
+.section-two {
+    display: flex;
+    padding: 90px;
+    gap: 50px;
+}
+
+.second-parah h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.second-parah p {
+    color: #999999;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.second-img img {
+    height: 450px;
+}
+
+/*section two end*/
