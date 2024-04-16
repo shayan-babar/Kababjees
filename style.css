@@ -71,11 +71,67 @@ header {
 .second-parah p {
     color: #999999;
     font-weight: 300;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .second-img img {
-    height: 450px;
+    height: 400px;
 }
 
 /*section two end*/
+
+/*section third*/
+
+.section-third {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.section-third h1 {
+    font-size: 35px;
+    font-weight: 400;
+    text-decoration: underline #dcb658;
+}
+
+.section-third h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    padding: 50px;
+}
+
+.card {
+    width: 325px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-button {
+    display: inline-block;
+    background-color: #dcb658;
+    font-size: 16px;
+    color: #373633;
+    text-decoration: none;
+    padding: 6px 12px;
+}
