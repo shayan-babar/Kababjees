@@ -106,12 +106,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 75px;
+    gap: 50px;
     padding: 50px;
-}
-
-.card-container:hover {
-    color: #999999;
 }
 
 .card {
@@ -126,6 +122,10 @@ header {
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+.card img:hover {
+    background-color: #999999;
 }
 
 .card-content {
@@ -171,3 +171,32 @@ header {
 }
 
 /*section four end*/
+
+/*section five*/
+
+.section-five {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.section-five h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+    text-decoration: underline #dcb658;
+}
+
+.banks {
+    display: flex;
+    padding: 40px;
+    gap: 20px;
+}
+
+.banks img {
+    height: 320px;
+}
+
+/*section five end*/
