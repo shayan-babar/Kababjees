@@ -75,7 +75,8 @@ header {
 }
 
 .second-img img {
-    height: 400px;
+    height: 430px;
+    border-radius: 20px;
 }
 
 /*section two end*/
@@ -109,6 +110,10 @@ header {
     padding: 50px;
 }
 
+.card-container:hover {
+    color: #999999;
+}
+
 .card {
     width: 325px;
     background-color: #f4f4f4;
@@ -129,9 +134,40 @@ header {
 
 .card-button {
     display: inline-block;
+    margin-left: 75px;
     background-color: #dcb658;
     font-size: 16px;
     color: #373633;
     text-decoration: none;
     padding: 6px 12px;
 }
+
+/*section three end*/
+
+/* section four*/
+
+.section-four {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+
+.section-four h1 {
+    color: #6f6f6f;
+    margin-bottom: 15px;
+    font-weight: 350;
+}
+
+.order-number h1 {
+    color: #dcb658;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.order-number h1:hover {
+    text-decoration: underline;
+}
+
+/*section four end*/
