@@ -33,10 +33,13 @@ header {
 .links a {
     font-size: 19px;
     color: #ffffff;
+    transition: 500ms;
+
 }
 
 .links a:hover {
     color: #dcb658;
+
 }
 
 .links ul {
@@ -241,3 +244,35 @@ header {
 }
 
 /*section six end*/
+
+/*section seven*/
+
+.section-seven img {
+    width: 100%;
+}
+
+.section-eight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.section-eight h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.sec-8-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.sec-8-img img {
+    height: 200px;
+    border-radius: 20px;
+}
